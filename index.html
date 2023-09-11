@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um site de portfolio de apresentação - Luiz Freitas (Desenvolvedor Full Stack)" />
+  <meta name="author" content="Luiz Freitas" />
+  <title>Portfolio Luiz Freitas</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/full stack.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8384de257b.js" crossorigin="anonymous"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Luiz Freitas<span>.</span></a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre mim</a></li>
+          <li><a class="nav-link scrollto" href="#habilidades">Habilidades</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
+          <li class="dropdown"><a href="#"><span>Formação acadêmica</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <i class="bi bi-journal-bookmark p-2"> Faculdade</i>
+              </li>
+              <li>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ms-3 my-1" href="https://descomplica.com.br/">Descomplica</a>
+                  <a class="nav-link ms-3 my-1" href="https://www.unipar.br/">Unipar</a>
+                </nav>
+              </li>
+              <li>
+                <i class="bi bi-window-plus p-2"> Cursos - Programação</i>
+              </li>
+              <li>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ms-3 my-1" href="https://www.onebitcode.com/">One Bit Code</a>
+                  <a class="nav-link ms-3 my-1" href="https://www.dio.me/">Digital Inovation One</a>
+                  <a class="nav-link ms-3 my-1" href="https://hotmart.com/pt-br/marketplace/produtos/formacao-em-desenvolvimento-web/L76322579J">Formação em Dev Web</a>
+                </nav>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <a href="curriculo.pdf" class="get-started-btn scrollto" download>Baixar CV</a>
+
+    </div>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Olá, meu nome é Luiz Freitas<span>.</span></h1>
+          <h2>Sou um desenvolvedor Full Stack Júnior com foco em desenvolvimento WEB.</h2>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center mb-5" data-aos="zoom-in" data-aos-delay="250">
+        <h5>Principais tecnologias que domino</h5>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <img src="./assets/img/html.png" class="img-thumbnail" alt="HTML">
+            <h3><a href="">HTML</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <img src="./assets/img/css.png" class="img-thumbnail" alt="CSS">
+            <h3><a href="">CSS</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <img src="./assets/img/javascript.png" class="img-thumbnail" alt="JAVA SCRIPT">
+            <h3><a href="">JAVA SCRIPT</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <img src="./assets/img/php.png" class="img-thumbnail" alt="PHP">
+            <h3><a href="">PHP</a></h3>
+          </div>
+        </div>
+        <!-- <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <img src="./assets/img/react.png" class="img-thumbnail" alt="GIT">
+            <h3><a href="">REACT</a></h3>
+          </div>
+        </div> -->
+      </div>
+
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/avatar.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>Sobre mim</h3>
+            <h4>Olá, bem vindo ao meu perfil.
+              Eu me chamo Luiz Freitas e sou um desenvolvedor Full Stack Júnior com foco em desenvolvimento WEB.
+            </h4>
+            <p class="fst-italic">
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Embora eu ainda não tenha experiência profissional na área, tenho
+                conhecimentos sólidos em HTML, CSS, Java Script e PHP.</li>
+              <li><i class="ri-check-double-line"></i> Estou em busca de oportunidades para aplicar meus conhecimentos e
+                habilidades em um ambiente de trabalho profissional e aprender com profissionais experientes.</li>
+              <li><i class="ri-check-double-line"></i> Estou disposto a trabalhar duro e me dedicar ao desenvolvimento
+                de projetos desafiadores e gratificantes.</li>
+            </ul>
+            <p>
+              Se você está procurando um desenvolvedor Full Stack Júnior dedicado e entusiasmado, fique à vontade para
+              entrar em contato comigo!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <div class="container" data-aos="zoom-in">
+        <h3>Habilidades</h3>
+        <div class="box d-none d-md-block text-center" id="box">
+          <h4>Definição</h4>
+          <p>Explore as seguintes tecnologias ao passar o cursor sobre cada uma delas para obter informações detalhadas
+            sobre sua aplicação e funcionalidades.</p>
+        </div>
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('FULL STACK', 'Full Stack é um desenvolvedor que domina a parte do visual e da interação do usuário em um site ou aplicativo (o frontend) quanto a parte de armazenamento e processamento de informações no servidor (o backend).')">
+              <img src="./assets/img/full stack.png" class="img-thumbnail" alt="FULL STACK">
+            </div> -->
+            <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('HTML', 'HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para criar páginas web.')">
+              <img src="./assets/img/html.png" class="img-thumbnail" alt="HTML">
+            </div>
+            <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('CSS', 'CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar a aparência visual de uma página web.')">
+              <img src="./assets/img/css.png" class="img-thumbnail" alt="CSS">
+            </div>
+            <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('JAVASCRIPT', 'JavaScript é uma linguagem de programação que é usada principalmente no lado do cliente para interatividade e dinamismo em uma página web. ')">
+              <img src="./assets/img/javascript.png" class="img-thumbnail" alt="JAVA SCRIPT">
+            </div>
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('REACT', 'React é uma biblioteca JavaScript de código aberto para criação de interfaces de usuário.')">
+              <img src="./assets/img/react.png" class="img-thumbnail" alt="REACT">
+            </div> -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('ANGULAR', 'Angular é um framework front-end de código aberto utilizado para desenvolvimento de aplicativos web e móveis.')">
+              <img src="./assets/img/angular.png" class="img-thumbnail" alt="ANGULAR">
+            </div> -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('PYTHON', 'Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.')">
+              <img src="./assets/img/python.png" alt="PYTHON" class="img-thumbnail">
+            </div> -->
+            <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('GIT', 'Git é um sistema de controle de versão de código aberto utilizado para gerenciar o código-fonte de um projeto.')">
+              <img src="./assets/img/git.png" class="img-thumbnail" alt="GIT">
+            </div>
+            <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('PHP', 'PHP é uma linguagem de script do lado do servidor usada para criar aplicativos web dinâmicos. Ele é usado principalmente para manipulação de formulários, acesso a bancos de dados e processamento de dados do usuário.')">
+              <img src="./assets/img/php.png" alt="PHP" class="img-thumbnail">
+            </div>
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('SQL', 'A Linguagem de consulta estruturada SQL é uma linguagem de programação para armazenar e processar informações em um banco de dados relacional.')">
+              <img src="./assets/img/sql.png" alt="SQL" class="img-thumbnail">
+            </div> -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('ANDROID', 'Desenvolvedor android é responsável por criar aplicações para o sistema operacional (SO) android na versão mobile.')">
+              <img src="./assets/img/android.png" alt="ANDROID" class="img-thumbnail">
+            </div>  -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('IOS', 'Desenvolvedor IOS é responsável por criar aplicações para o sistema operacional (SO) ios na versão mobile.')">
+              <img src="./assets/img/ios.png" alt="IOS" class="img-thumbnail">
+            </div>  -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('C & C++', 'São linguagens de programação amplamente utilizadas para o desenvolvimento de software.')">
+              <img src="./assets/img/c e c++.png" alt="C & C++" class="img-thumbnail">
+            </div>  -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('DOCKER', 'Docker é uma plataforma de código aberto que permite a criação, implantação e execução de aplicativos em contêineres. Um contêiner contém tudo o que um aplicativo precisa para ser executado, incluindo o código, as bibliotecas, as dependências e as configurações do sistema.')">
+              <img src="./assets/img/docker.png" alt="DOCKER" class="img-thumbnail">
+            </div> -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('RUBY', 'Ruby é uma linguagem de programação dinâmica, orientada a objetos e de propósito geral. Ruby é conhecida por sua sintaxe limpa e expressiva, que enfatiza a legibilidade e a produtividade do programador..')">
+              <img src="./assets/img/ruby.png" alt="RUBY" class="img-thumbnail">
+            </div> -->
+            <!-- <div class="card swiper-slide"
+              onmouseover="mostrarDefinicao('UX DESIGNER', 'User Experience Designer é um profissional que se concentra na criação de experiências de usuário satisfatórias em produtos e serviços. O objetivo principal é projetar soluções que atendam às necessidades e expectativas dos usuários, tornando a interação o mais intuitiva, eficiente e agradável possível.')">
+              <img src="./assets/img/ux.png" alt="UX DESIGNER" class="img-thumbnail">
+            </div> -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features bg-black">
+      <div class="container" data-aos="fade-up">
+
+        <h2 class="text-center p-3 text-light">Alguns Certificados</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Certificado 1 -->
+            <div class="card mb-4">
+              <img src="./assets/img/HTML 5.jpg" class="card-img-top" alt="Imagem 1">
+              <div class="card-body">
+                <h5 class="card-title">HTML 5</h5>
+                <p class="card-text">Descrição do Certificado 1.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <!-- Certificado 2 -->
+            <div class="card mb-4">
+              <img src="./assets/img/CSS 3.jpg" class="card-img-top" alt="Imagem 2">
+              <div class="card-body">
+                <h5 class="card-title">CSS 3</h5>
+                <p class="card-text">Descrição do Certificado 2.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Certificado 1 -->
+            <div class="card mb-4">
+              <img src="" class="card-img-top" alt="Imagem 1">
+              <div class="card-body">
+                <h5 class="card-title">javascript</h5>
+                <p class="card-text">Descrição do Certificado 1.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <!-- Certificado 2 -->
+            <div class="card mb-4">
+              <img src="" class="card-img-top" alt="Imagem 2">
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text">Descrição do Certificado 2.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-12 pb-4" data-aos="fade-left" data-aos-delay="100">
+            <!-- Informações sobre habilidades -->
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bxl-html5"></i>
+              <h4 class="text-light">HTML Developer</h4>
+              <p>A base para criar páginas WEB! estruturar a marcação da sua página e os elementos semânticos na hora de
+                construir sua página.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bxl-html5"></i>
+              <h4 class="text-light">CSS Developer</h4>
+              <p>Usado para estilizar e turbinar ainda mais suas páginas Web com Cascading Style Sheets, o famoso CSS.
+                Organizar sua folha de estilos, animações e posicionamento de elementos em tela e estilização.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bxl-html5"></i>
+              <h4 class="text-light">Java Script Developer</h4>
+              <p>É uma linguagem de programação versátil e amplamente utilizada no desenvolvimento web. Ele é executado
+                no
+                lado do cliente (navegador), o que o torna uma escolha popular para criar aplicativos web dinâmicos e
+                interativos.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bxl-html5"></i>
+              <h4 class="text-light">PHP Developer</h4>
+              <p>O PHP é uma linguagem de programação de uso geral amplamente utilizada no desenvolvimento web. Ele é
+                executado no lado do servidor, o que significa que o código PHP é processado no servidor antes de ser
+                enviado ao navegador do usuário.</p>
+            </div>
+          </div>
+          <div class="col-lg text-center">
+            <a href="./inner-page.html" class="get-started-btn scrollto">Ver todos os Certificados</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Serviços</h2>
+          <p>prestados</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-window-alt"></i></div>
+              <h4><a href="">Front-end</a></h4>
+              <p>Envolve a criação e implementação da interface visual e interativa de um site ou aplicativo, utilizando
+                HTML, CSS e JavaScript e suas bibliotecas e frameworks.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-code-block"></i></div>
+              <h4><a href="">Back-end</a></h4>
+              <p>
+                Refere-se ao desenvolvimento da parte do sistema que lida com o processamento e armazenamento de dados,
+                bem como a lógica de negócios, geralmente utilizando linguagens de programação como Python, Java, PHP,
+                entre outras.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-server"></i></div>
+              <h4><a href="">Banco de dados</a></h4>
+              <p>É um sistema que armazena e gerencia dados de forma organizada, permitindo o armazenamento, recuperação
+                e manipulação de dados de forma eficiente das informações.</p>
+              <p><B>EM BREVE</B></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projetos</h2>
+          <p>Confira meus projetos</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="./assets/img/android.png" class="card-img-top" alt="Projeto 1">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 1</h5>
+                <p class="card-text">Descrição do Projeto 1.</p>
+                <a href="https://www.example.com/projeto1" class="btn btn-primary">Visitar o Site</a>
+              </div>
+              <div class="card-footer">
+                <div class="row text-center">
+                  <div class="col"><i class="fab fa-html5"></i></div>
+                  <div class="col"><i class="fab fa-css3-alt"></i></div>
+                  <div class="col"><i class="fab fa-js"></i></div>
+                  <div class="col"><i class="fab fa-html5"></i></div>
+                  <div class="col"><i class="fab fa-css3-alt"></i></div>
+                  <div class="col"><i class="fab fa-js"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="./assets/img/android.png" class="card-img-top" alt="Projeto 1">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 1</h5>
+                <p class="card-text">Descrição do Projeto 1.</p>
+                <a href="https://www.example.com/projeto1" class="btn btn-primary">Visitar o Site</a>
+              </div>
+              <div class="card-footer">
+                <div class="row text-center">
+                  <div class="col"><i class="fab fa-html5"></i></div>
+                  <div class="col"><i class="fab fa-css3-alt"></i></div>
+                  <div class="col"><i class="fab fa-js"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="./assets/img/android.png" class="card-img-top" alt="Projeto 1">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 1</h5>
+                <p class="card-text">Descrição do Projeto 1.</p>
+                <a href="https://www.example.com/projeto1" class="btn btn-primary">Visitar o Site</a>
+              </div>
+              <div class="card-footer">
+                <div class="row text-center">
+                  <div class="col"><i class="fab fa-html5"></i></div>
+                  <div class="col"><i class="fab fa-css3-alt"></i></div>
+                  <div class="col"><i class="fab fa-js"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="./assets/img/android.png" class="card-img-top" alt="Projeto 1">
+              <div class="card-body">
+                <h5 class="card-title">Projeto 1</h5>
+                <p class="card-text">Descrição do Projeto 1.</p>
+                <a href="https://www.example.com/projeto1" class="btn btn-primary">Visitar o Site</a>
+              </div>
+              <div class="card-footer">
+                <div class="row text-center">
+                  <div class="col"><i class="fab fa-html5"></i></div>
+                  <div class="col"><i class="fab fa-css3-alt"></i></div>
+                  <div class="col"><i class="fab fa-js"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contato</h2>
+          <p>Contatos e redes sociais</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229350.05348375475!2d-53.29014982035268!3d-26.07950274318984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f0721b967b1a53%3A0x50f39e66e8b178ba!2sFrancisco%20Beltr%C3%A3o%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1688021186296!5m2!1spt-BR!2sbr"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Localização:</h4>
+                <p>Francisco Beltrão - PR, Brasil</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>luiz30041998@hotmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telefone:</h4>
+                <p>+55 (46) 9 8821-5938</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/LuizHF01" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/luizhf01/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://github.com/LuizHF01" class="google-plus"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/luiz-h-freitas" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="" class="linkedin"><i class="bx bxl-codepen"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Luiz Freitas</span></strong>. Todos os direitos reservados
+      </div>
+      <div class="credits">
+        Designer Luiz Freitas</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
